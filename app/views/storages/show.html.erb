@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @storage.name %>
+</p>
+
+<p>
+  <strong>Ram:</strong>
+  <%= @storage.ram %>
+</p>
+
+<%= link_to 'Edit', edit_storage_path(@storage) %> |
+<%= link_to 'Back', storages_path %>

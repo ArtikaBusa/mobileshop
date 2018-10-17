@@ -1,0 +1,2 @@
+class SellerProductVariant < ApplicationRecord
+end
