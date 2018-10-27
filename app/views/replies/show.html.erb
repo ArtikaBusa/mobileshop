@@ -1,0 +1,10 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Body:</b>
+  <%= @reply.body %>
+</p>
+
+
+<%= link_to 'Edit', edit_user_comment_reply_path(@user, @comment, @reply) %> |
+<%= link_to 'Back', user_comment_replies_path(@user, @comment, @reply) %>
