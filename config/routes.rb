@@ -1,13 +1,17 @@
 Rails.application.routes.draw do
+<<<<<<< HEAD
   resources :users do
     resources :comments do
       resources :replies
     end
   end
+=======
+>>>>>>> refs/remotes/origin/master
   resources :processors
   resources :displays
   resources :colors
   resources :storages
+<<<<<<< HEAD
   # resources :brands
   resources :products
   resources :categories
@@ -33,5 +37,10 @@ Rails.application.routes.draw do
   # root "brand#index"
 
 
+=======
+  resources :brands
+  resources :products
+  resources :categories
+>>>>>>> refs/remotes/origin/master
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

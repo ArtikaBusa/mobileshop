@@ -10,7 +10,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 2018_10_25_113545) do
+=======
+ActiveRecord::Schema.define(version: 2018_10_16_122907) do
+>>>>>>> refs/remotes/origin/master
 
   create_table "brands", force: :cascade do |t|
     t.string "name", limit: 15
@@ -30,6 +34,7 @@ ActiveRecord::Schema.define(version: 2018_10_25_113545) do
     t.datetime "updated_at", null: false
   end
 
+<<<<<<< HEAD
   create_table "comments", force: :cascade do |t|
     t.integer "user_id"
     t.text "body"
@@ -38,6 +43,8 @@ ActiveRecord::Schema.define(version: 2018_10_25_113545) do
     t.index ["user_id"], name: "index_comments_on_user_id"
   end
 
+=======
+>>>>>>> refs/remotes/origin/master
   create_table "displays", force: :cascade do |t|
     t.string "name", limit: 30
     t.datetime "created_at", null: false
@@ -101,6 +108,7 @@ ActiveRecord::Schema.define(version: 2018_10_25_113545) do
     t.datetime "updated_at", null: false
   end
 
+<<<<<<< HEAD
   create_table "replies", force: :cascade do |t|
     t.integer "comment_id"
     t.text "body"
@@ -109,6 +117,8 @@ ActiveRecord::Schema.define(version: 2018_10_25_113545) do
     t.index ["comment_id"], name: "index_replies_on_comment_id"
   end
 
+=======
+>>>>>>> refs/remotes/origin/master
   create_table "seller_product_variants", force: :cascade do |t|
     t.integer "seller_id"
     t.integer "product_variant_id"
